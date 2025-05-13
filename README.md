@@ -69,3 +69,30 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.rh-page.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+# RH Organization
+
+This project is deployed using GitHub Pages. You can view the live site at: https://kauezo.github.io/rhOrganization/
+
+## Development
+
+To run this project locally:
+
+```bash
+npm install
+npm run dev
+```
+
+## Building for Production
+
+To build the project:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. Any push to the main branch will trigger a new deployment.
